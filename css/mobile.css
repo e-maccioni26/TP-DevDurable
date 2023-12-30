@@ -1,0 +1,51 @@
+@media screen and (max-width: 600px) {
+    #nav-ul{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container-row{
+        grid-template-columns: none;
+    }
+
+    .img-border{
+        padding: 20px;
+    }
+
+    .row-d h2{
+        text-align: center;
+    }
+
+    .contenu{
+        grid-template-columns: none;
+    }
+
+    .contenu2{
+        grid-template-columns: none;
+        margin-top: 15px;
+    }
+
+    .card2 svg{
+        margin-bottom: 15px;
+    }
+
+    #section3{
+        margin-top: 20px;
+    }
+
+    .button a{
+        font-size: 14px;
+    }
+
+    #section4 p{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}
